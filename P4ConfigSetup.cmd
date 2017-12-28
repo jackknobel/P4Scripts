@@ -10,7 +10,7 @@ break>%ConfigFile%
 echo Setting up Perforce for first time use
 
 :: Set our port number
-echo Enter the port number. Should be along the lines of IP/Host:PortNumber
+echo Enter the P4Port. Should be along the lines of IP/Host:PortNumber
 set /p port="Port: "
 echo P4PORT=%port% >> %ConfigFile%
 
